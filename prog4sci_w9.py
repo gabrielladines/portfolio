@@ -1,9 +1,3 @@
-# WEEK 9
-# Task 1
-'''Using lecture 8 to help you, create GUI with two buttons and an appropriate window label.
-When you press the first button the background becomes pink. 
-When you press the other second button the background becomes blue.'''
-
 from tkinter import*
 window = Tk()
 window.title('Task 1')
@@ -32,11 +26,4 @@ window.mainloop()
 
 
 
-# window.mainloop()
-
-# Task 2
-'''Create a GUI that allows the user to input a number and when they hit a button it will 
-calculate the square root of that number for the user to see. Use the lecture notes to help
-you were necassary.'''
-
-'''Extension: Make your own '''
+window.mainloop()
