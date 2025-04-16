@@ -1,23 +1,18 @@
-# Week 5
-# Task 1
 '''Task 1: Write some code using a function and tuples so that when someone enters two numbers, 
 the quotient, and remainder is calculated and printed back to them.'''
 
-# define the function as so that Python can take float inputs and know how to use them accordingly to demonstrate quotient and remainder when two floats get divided.
 def quotient_remainder(x,y):
     q = x / y
     r = x % y
     return(q,r)
-# take float inputs to be converted into division maths.
+    
 x = float(input("Enter a number: "))
 y = float(input("Enter a number: "))
-# ref the function to find quotient and remainder.
+
 (quot,rem) = quotient_remainder(x,y)
-# print statement to inform user on what the quotient is and another print statement to inform the remainder. 
 print("The value of", x, "divided by", y, "=", quot)
 print("The remainder when", x, " is divided by", y, "=", rem)
 
-# Task 2
 '''The following tuple refers to Adele – when she sang a song and who she sang her
 particular song about:
 
@@ -49,7 +44,7 @@ adele_songs = ((2003, 'boyfriend'), (2004, 'friend'), (2005, 'ex-boyfriend'), (2
 to a chemical inventory of different chemicals and the year they were purchased. Show
 how you could obtain the number of chemicals you have and year the oldest chemical was purchased.'''
 
-# Task 4:
+
 '''You are provided with the following list:
 L = [1,2,3,4,5,1,2,3,4,5]
 The operations below are then performed one by one:
