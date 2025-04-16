@@ -1,4 +1,4 @@
-# Week 8: Hanoi Rings.
+# Hanoi Rings.
 
 def hanoi(n,start,end,aux):
     if n == 1:
